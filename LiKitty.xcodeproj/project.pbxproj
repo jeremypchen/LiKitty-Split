@@ -28,6 +28,9 @@
 		22BD89981AF29B10008AA80B /* AddPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BD89971AF29B10008AA80B /* AddPeopleViewController.m */; };
 		22D936BA1AF9FB0700C87C1B /* TaxAndTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */; };
 		22F3294A1B6001F100BD72F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */; };
+		881FFDCE1CA2FDEE0034807D /* AddPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FFDCD1CA2FDEE0034807D /* AddPeopleViewController.swift */; };
+		881FFDD41CA33BB90034807D /* SplitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FFDD31CA33BB90034807D /* SplitModel.swift */; };
+		881FFDD61CA33F7C0034807D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FFDD51CA33F7C0034807D /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,10 @@
 		22D936B81AF9FB0700C87C1B /* TaxAndTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxAndTipViewController.h; sourceTree = "<group>"; };
 		22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxAndTipViewController.m; sourceTree = "<group>"; };
 		59CA005960F65967AB33CE3C /* libPods-LiKitty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiKitty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		881FFDCC1CA2FDED0034807D /* LiKitty Split-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiKitty Split-Bridging-Header.h"; sourceTree = "<group>"; };
+		881FFDCD1CA2FDEE0034807D /* AddPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPeopleViewController.swift; sourceTree = "<group>"; };
+		881FFDD31CA33BB90034807D /* SplitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitModel.swift; sourceTree = "<group>"; };
+		881FFDD51CA33F7C0034807D /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BF846C87BFDF83F65D1091CD /* Pods-LiKitty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiKitty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiKitty/Pods-LiKitty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,17 +146,14 @@
 		227D022C1AE9F5F8006CD9F6 /* LiKitty */ = {
 			isa = PBXGroup;
 			children = (
-				223270621AECB87C00FEB722 /* Person.h */,
-				223270631AECB87C00FEB722 /* Person.m */,
-				227D02571AEA0A71006CD9F6 /* Models */,
-				227D02561AEA090E006CD9F6 /* ViewControllers */,
-				2244EA731B4C470000C49F36 /* Segues */,
+				881FFDD21CA302F50034807D /* Domain */,
+				881FFDD11CA302D40034807D /* UI */,
 				227D02321AE9F5F8006CD9F6 /* AppDelegate.m */,
 				227D02311AE9F5F8006CD9F6 /* AppDelegate.h */,
-				227D02371AE9F5F8006CD9F6 /* Main.storyboard */,
 				227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */,
 				220926EC1B61AB8700ECB4B2 /* Images.xcassets */,
 				227D022D1AE9F5F8006CD9F6 /* Supporting Files */,
+				881FFDCC1CA2FDED0034807D /* LiKitty Split-Bridging-Header.h */,
 			);
 			path = LiKitty;
 			sourceTree = "<group>";
@@ -180,36 +184,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		227D02561AEA090E006CD9F6 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				227D02531AEA08FA006CD9F6 /* MainViewController.h */,
-				227D02541AEA08FA006CD9F6 /* MainViewController.m */,
-				222FBD321B3DCCD300E0BFA6 /* PersonDetailViewController.h */,
-				222FBD331B3DCCD400E0BFA6 /* PersonDetailViewController.m */,
-				22D936B81AF9FB0700C87C1B /* TaxAndTipViewController.h */,
-				22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */,
-				22BD89961AF29B10008AA80B /* AddPeopleViewController.h */,
-				22BD89971AF29B10008AA80B /* AddPeopleViewController.m */,
-				223500621B3C6B8600497391 /* AddItemViewController.h */,
-				223500631B3C6B8600497391 /* AddItemViewController.m */,
-				226A69421AFB187A00C94C35 /* FinalSplitViewController.h */,
-				226A69431AFB187A00C94C35 /* FinalSplitViewController.m */,
-				22879CFD1AFB5BF500DBF3D0 /* VenmoViewController.h */,
-				22879CFE1AFB5BF500DBF3D0 /* VenmoViewController.m */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		227D02571AEA0A71006CD9F6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2232705F1AECA67B00FEB722 /* SplitModel.h */,
-				223270601AECA67B00FEB722 /* SplitModel.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
 		620E718DFB2B7E1574CBDB33 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +200,43 @@
 				59CA005960F65967AB33CE3C /* libPods-LiKitty.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		881FFDD11CA302D40034807D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2244EA731B4C470000C49F36 /* Segues */,
+				227D02531AEA08FA006CD9F6 /* MainViewController.h */,
+				227D02541AEA08FA006CD9F6 /* MainViewController.m */,
+				222FBD321B3DCCD300E0BFA6 /* PersonDetailViewController.h */,
+				222FBD331B3DCCD400E0BFA6 /* PersonDetailViewController.m */,
+				22D936B81AF9FB0700C87C1B /* TaxAndTipViewController.h */,
+				22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */,
+				22BD89961AF29B10008AA80B /* AddPeopleViewController.h */,
+				22BD89971AF29B10008AA80B /* AddPeopleViewController.m */,
+				223500621B3C6B8600497391 /* AddItemViewController.h */,
+				223500631B3C6B8600497391 /* AddItemViewController.m */,
+				881FFDCD1CA2FDEE0034807D /* AddPeopleViewController.swift */,
+				226A69421AFB187A00C94C35 /* FinalSplitViewController.h */,
+				226A69431AFB187A00C94C35 /* FinalSplitViewController.m */,
+				22879CFD1AFB5BF500DBF3D0 /* VenmoViewController.h */,
+				22879CFE1AFB5BF500DBF3D0 /* VenmoViewController.m */,
+				227D02371AE9F5F8006CD9F6 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		881FFDD21CA302F50034807D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2232705F1AECA67B00FEB722 /* SplitModel.h */,
+				223270601AECA67B00FEB722 /* SplitModel.m */,
+				881FFDD31CA33BB90034807D /* SplitModel.swift */,
+				881FFDD51CA33F7C0034807D /* Item.swift */,
+				223270621AECB87C00FEB722 /* Person.h */,
+				223270631AECB87C00FEB722 /* Person.m */,
+			);
+			name = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 		227D02221AE9F5F8006CD9F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Jeremy Chen";
 				TargetAttributes = {
@@ -363,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881FFDCE1CA2FDEE0034807D /* AddPeopleViewController.swift in Sources */,
 				22D936BA1AF9FB0700C87C1B /* TaxAndTipViewController.m in Sources */,
 				223270611AECA67B00FEB722 /* SplitModel.m in Sources */,
 				226A69441AFB187A00C94C35 /* FinalSplitViewController.m in Sources */,
@@ -372,6 +385,8 @@
 				227D02331AE9F5F8006CD9F6 /* AppDelegate.m in Sources */,
 				223270641AECB87C00FEB722 /* Person.m in Sources */,
 				2244EA721B4C46EE00C49F36 /* CustomSegue.m in Sources */,
+				881FFDD61CA33F7C0034807D /* Item.swift in Sources */,
+				881FFDD41CA33BB90034807D /* SplitModel.swift in Sources */,
 				227D02551AEA08FB006CD9F6 /* MainViewController.m in Sources */,
 				22879CFF1AFB5BF500DBF3D0 /* VenmoViewController.m in Sources */,
 				227D02301AE9F5F8006CD9F6 /* main.m in Sources */,
@@ -497,12 +512,15 @@
 			baseConfigurationReference = BF846C87BFDF83F65D1091CD /* Pods-LiKitty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiKitty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiKitty/LiKitty Split-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -511,12 +529,14 @@
 			baseConfigurationReference = 18139891FAFBCD8CBC5240C8 /* Pods-LiKitty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiKitty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiKitty/LiKitty Split-Bridging-Header.h";
 			};
 			name = Release;
 		};
