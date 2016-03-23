@@ -1,0 +1,7 @@
+README
+
+Please ensure that the project is opened by clicking LiKitty.xcworkspace and NOT LiKitty.xcodeproj. I used CocoaPods to install the Venmo iOS SDK, and apparently opening through .xcworkspace is a requirement to ensure that the Venmo SDK will work with my project.
+
+Testing was mostly done on my personal iPhone 6 device, but it was also tested on the iOS simulator so there should be no problems using either.
+
+I wasn't sure if the grader has a Venmo account. Therefore, I made it so that when you click on the Venmo button, you can press Deny on the permission request that appears on Safari and you will still be able to access the "Request by Venmo" view controller. On this view, you can test out the Address Book functionality, but you'll receive an error about the lack of an open session if you try a Venmo charge.

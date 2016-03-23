@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA0C99BECDF5C24B509F13C /* libPods-LiKitty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CA005960F65967AB33CE3C /* libPods-LiKitty.a */; };
+		220926ED1B61AB8700ECB4B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220926EC1B61AB8700ECB4B2 /* Images.xcassets */; };
+		222FBD341B3DCCD400E0BFA6 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FBD331B3DCCD400E0BFA6 /* PersonDetailViewController.m */; };
+		223270611AECA67B00FEB722 /* SplitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 223270601AECA67B00FEB722 /* SplitModel.m */; };
+		223270641AECB87C00FEB722 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 223270631AECB87C00FEB722 /* Person.m */; };
+		223500641B3C6B8600497391 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223500631B3C6B8600497391 /* AddItemViewController.m */; };
+		2244EA721B4C46EE00C49F36 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2244EA711B4C46EE00C49F36 /* CustomSegue.m */; };
+		2244EA751B4C474900C49F36 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2244EA741B4C474900C49F36 /* QuartzCore.framework */; };
+		226A69441AFB187A00C94C35 /* FinalSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226A69431AFB187A00C94C35 /* FinalSplitViewController.m */; };
+		226A69461AFB372200C94C35 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A69451AFB372200C94C35 /* MessageUI.framework */; };
+		226A694C1AFB4B5500C94C35 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A694A1AFB4B5500C94C35 /* AddressBook.framework */; };
+		226A694D1AFB4B5500C94C35 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A694B1AFB4B5500C94C35 /* AddressBookUI.framework */; };
+		227D02301AE9F5F8006CD9F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D022F1AE9F5F8006CD9F6 /* main.m */; };
+		227D02331AE9F5F8006CD9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D02321AE9F5F8006CD9F6 /* AppDelegate.m */; };
+		227D02391AE9F5F8006CD9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D02371AE9F5F8006CD9F6 /* Main.storyboard */; };
+		227D024A1AE9F5F9006CD9F6 /* LiKittyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D02491AE9F5F9006CD9F6 /* LiKittyTests.m */; };
+		227D02551AEA08FB006CD9F6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D02541AEA08FA006CD9F6 /* MainViewController.m */; };
+		22879CFF1AFB5BF500DBF3D0 /* VenmoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22879CFE1AFB5BF500DBF3D0 /* VenmoViewController.m */; };
+		22BD89981AF29B10008AA80B /* AddPeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BD89971AF29B10008AA80B /* AddPeopleViewController.m */; };
+		22D936BA1AF9FB0700C87C1B /* TaxAndTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */; };
+		22F3294A1B6001F100BD72F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227D02441AE9F5F9006CD9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227D02221AE9F5F8006CD9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227D02291AE9F5F8006CD9F6;
+			remoteInfo = LiKitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18139891FAFBCD8CBC5240C8 /* Pods-LiKitty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiKitty.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiKitty/Pods-LiKitty.release.xcconfig"; sourceTree = "<group>"; };
+		220926EC1B61AB8700ECB4B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		222FBD321B3DCCD300E0BFA6 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
+		222FBD331B3DCCD400E0BFA6 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
+		2232705F1AECA67B00FEB722 /* SplitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitModel.h; sourceTree = "<group>"; };
+		223270601AECA67B00FEB722 /* SplitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitModel.m; sourceTree = "<group>"; };
+		223270621AECB87C00FEB722 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		223270631AECB87C00FEB722 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		223500621B3C6B8600497391 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		223500631B3C6B8600497391 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		2244EA701B4C46EE00C49F36 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		2244EA711B4C46EE00C49F36 /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
+		2244EA741B4C474900C49F36 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		226A69421AFB187A00C94C35 /* FinalSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalSplitViewController.h; sourceTree = "<group>"; };
+		226A69431AFB187A00C94C35 /* FinalSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalSplitViewController.m; sourceTree = "<group>"; };
+		226A69451AFB372200C94C35 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		226A694A1AFB4B5500C94C35 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		226A694B1AFB4B5500C94C35 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		227D022A1AE9F5F8006CD9F6 /* LiKitty Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiKitty Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D022E1AE9F5F8006CD9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D022F1AE9F5F8006CD9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227D02311AE9F5F8006CD9F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		227D02321AE9F5F8006CD9F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		227D02381AE9F5F8006CD9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227D023D1AE9F5F8006CD9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		227D02431AE9F5F9006CD9F6 /* LiKittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiKittyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D02481AE9F5F9006CD9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D02491AE9F5F9006CD9F6 /* LiKittyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiKittyTests.m; sourceTree = "<group>"; };
+		227D02531AEA08FA006CD9F6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		227D02541AEA08FA006CD9F6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		22879CFD1AFB5BF500DBF3D0 /* VenmoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenmoViewController.h; sourceTree = "<group>"; };
+		22879CFE1AFB5BF500DBF3D0 /* VenmoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenmoViewController.m; sourceTree = "<group>"; };
+		22BD89961AF29B10008AA80B /* AddPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPeopleViewController.h; sourceTree = "<group>"; };
+		22BD89971AF29B10008AA80B /* AddPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPeopleViewController.m; sourceTree = "<group>"; };
+		22D936B81AF9FB0700C87C1B /* TaxAndTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxAndTipViewController.h; sourceTree = "<group>"; };
+		22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxAndTipViewController.m; sourceTree = "<group>"; };
+		59CA005960F65967AB33CE3C /* libPods-LiKitty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiKitty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF846C87BFDF83F65D1091CD /* Pods-LiKitty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiKitty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiKitty/Pods-LiKitty.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227D02271AE9F5F8006CD9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244EA751B4C474900C49F36 /* QuartzCore.framework in Frameworks */,
+				226A694C1AFB4B5500C94C35 /* AddressBook.framework in Frameworks */,
+				226A694D1AFB4B5500C94C35 /* AddressBookUI.framework in Frameworks */,
+				226A69461AFB372200C94C35 /* MessageUI.framework in Frameworks */,
+				0AA0C99BECDF5C24B509F13C /* libPods-LiKitty.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D02401AE9F5F9006CD9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2244EA731B4C470000C49F36 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				2244EA701B4C46EE00C49F36 /* CustomSegue.h */,
+				2244EA711B4C46EE00C49F36 /* CustomSegue.m */,
+			);
+			name = Segues;
+			sourceTree = "<group>";
+		};
+		227D02211AE9F5F8006CD9F6 = {
+			isa = PBXGroup;
+			children = (
+				226A694A1AFB4B5500C94C35 /* AddressBook.framework */,
+				226A694B1AFB4B5500C94C35 /* AddressBookUI.framework */,
+				226A69451AFB372200C94C35 /* MessageUI.framework */,
+				227D022C1AE9F5F8006CD9F6 /* LiKitty */,
+				227D02461AE9F5F9006CD9F6 /* LiKittyTests */,
+				227D022B1AE9F5F8006CD9F6 /* Products */,
+				620E718DFB2B7E1574CBDB33 /* Pods */,
+				82D3B20ABEBC3A0A79836E88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		227D022B1AE9F5F8006CD9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227D022A1AE9F5F8006CD9F6 /* LiKitty Split.app */,
+				227D02431AE9F5F9006CD9F6 /* LiKittyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227D022C1AE9F5F8006CD9F6 /* LiKitty */ = {
+			isa = PBXGroup;
+			children = (
+				223270621AECB87C00FEB722 /* Person.h */,
+				223270631AECB87C00FEB722 /* Person.m */,
+				227D02571AEA0A71006CD9F6 /* Models */,
+				227D02561AEA090E006CD9F6 /* ViewControllers */,
+				2244EA731B4C470000C49F36 /* Segues */,
+				227D02321AE9F5F8006CD9F6 /* AppDelegate.m */,
+				227D02311AE9F5F8006CD9F6 /* AppDelegate.h */,
+				227D02371AE9F5F8006CD9F6 /* Main.storyboard */,
+				227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */,
+				220926EC1B61AB8700ECB4B2 /* Images.xcassets */,
+				227D022D1AE9F5F8006CD9F6 /* Supporting Files */,
+			);
+			path = LiKitty;
+			sourceTree = "<group>";
+		};
+		227D022D1AE9F5F8006CD9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227D022E1AE9F5F8006CD9F6 /* Info.plist */,
+				227D022F1AE9F5F8006CD9F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227D02461AE9F5F9006CD9F6 /* LiKittyTests */ = {
+			isa = PBXGroup;
+			children = (
+				227D02491AE9F5F9006CD9F6 /* LiKittyTests.m */,
+				227D02471AE9F5F9006CD9F6 /* Supporting Files */,
+			);
+			path = LiKittyTests;
+			sourceTree = "<group>";
+		};
+		227D02471AE9F5F9006CD9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227D02481AE9F5F9006CD9F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227D02561AEA090E006CD9F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				227D02531AEA08FA006CD9F6 /* MainViewController.h */,
+				227D02541AEA08FA006CD9F6 /* MainViewController.m */,
+				222FBD321B3DCCD300E0BFA6 /* PersonDetailViewController.h */,
+				222FBD331B3DCCD400E0BFA6 /* PersonDetailViewController.m */,
+				22D936B81AF9FB0700C87C1B /* TaxAndTipViewController.h */,
+				22D936B91AF9FB0700C87C1B /* TaxAndTipViewController.m */,
+				22BD89961AF29B10008AA80B /* AddPeopleViewController.h */,
+				22BD89971AF29B10008AA80B /* AddPeopleViewController.m */,
+				223500621B3C6B8600497391 /* AddItemViewController.h */,
+				223500631B3C6B8600497391 /* AddItemViewController.m */,
+				226A69421AFB187A00C94C35 /* FinalSplitViewController.h */,
+				226A69431AFB187A00C94C35 /* FinalSplitViewController.m */,
+				22879CFD1AFB5BF500DBF3D0 /* VenmoViewController.h */,
+				22879CFE1AFB5BF500DBF3D0 /* VenmoViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		227D02571AEA0A71006CD9F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2232705F1AECA67B00FEB722 /* SplitModel.h */,
+				223270601AECA67B00FEB722 /* SplitModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		620E718DFB2B7E1574CBDB33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF846C87BFDF83F65D1091CD /* Pods-LiKitty.debug.xcconfig */,
+				18139891FAFBCD8CBC5240C8 /* Pods-LiKitty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82D3B20ABEBC3A0A79836E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2244EA741B4C474900C49F36 /* QuartzCore.framework */,
+				59CA005960F65967AB33CE3C /* libPods-LiKitty.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227D02291AE9F5F8006CD9F6 /* LiKitty Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D024D1AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "LiKitty Split" */;
+			buildPhases = (
+				DFAA913906320C4B24722649 /* Check Pods Manifest.lock */,
+				227D02261AE9F5F8006CD9F6 /* Sources */,
+				227D02271AE9F5F8006CD9F6 /* Frameworks */,
+				227D02281AE9F5F8006CD9F6 /* Resources */,
+				FA097179440CD7286F42751B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiKitty Split";
+			productName = LiKitty;
+			productReference = 227D022A1AE9F5F8006CD9F6 /* LiKitty Split.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227D02421AE9F5F9006CD9F6 /* LiKittyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D02501AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "LiKittyTests" */;
+			buildPhases = (
+				227D023F1AE9F5F9006CD9F6 /* Sources */,
+				227D02401AE9F5F9006CD9F6 /* Frameworks */,
+				227D02411AE9F5F9006CD9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227D02451AE9F5F9006CD9F6 /* PBXTargetDependency */,
+			);
+			name = LiKittyTests;
+			productName = LiKittyTests;
+			productReference = 227D02431AE9F5F9006CD9F6 /* LiKittyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227D02221AE9F5F8006CD9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jeremy Chen";
+				TargetAttributes = {
+					227D02291AE9F5F8006CD9F6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					227D02421AE9F5F9006CD9F6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 227D02291AE9F5F8006CD9F6;
+					};
+				};
+			};
+			buildConfigurationList = 227D02251AE9F5F8006CD9F6 /* Build configuration list for PBXProject "LiKitty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227D02211AE9F5F8006CD9F6;
+			productRefGroup = 227D022B1AE9F5F8006CD9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227D02291AE9F5F8006CD9F6 /* LiKitty Split */,
+				227D02421AE9F5F9006CD9F6 /* LiKittyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227D02281AE9F5F8006CD9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220926ED1B61AB8700ECB4B2 /* Images.xcassets in Resources */,
+				227D02391AE9F5F8006CD9F6 /* Main.storyboard in Resources */,
+				22F3294A1B6001F100BD72F2 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D02411AE9F5F9006CD9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFAA913906320C4B24722649 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA097179440CD7286F42751B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiKitty/Pods-LiKitty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227D02261AE9F5F8006CD9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D936BA1AF9FB0700C87C1B /* TaxAndTipViewController.m in Sources */,
+				223270611AECA67B00FEB722 /* SplitModel.m in Sources */,
+				226A69441AFB187A00C94C35 /* FinalSplitViewController.m in Sources */,
+				223500641B3C6B8600497391 /* AddItemViewController.m in Sources */,
+				222FBD341B3DCCD400E0BFA6 /* PersonDetailViewController.m in Sources */,
+				22BD89981AF29B10008AA80B /* AddPeopleViewController.m in Sources */,
+				227D02331AE9F5F8006CD9F6 /* AppDelegate.m in Sources */,
+				223270641AECB87C00FEB722 /* Person.m in Sources */,
+				2244EA721B4C46EE00C49F36 /* CustomSegue.m in Sources */,
+				227D02551AEA08FB006CD9F6 /* MainViewController.m in Sources */,
+				22879CFF1AFB5BF500DBF3D0 /* VenmoViewController.m in Sources */,
+				227D02301AE9F5F8006CD9F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D023F1AE9F5F9006CD9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D024A1AE9F5F9006CD9F6 /* LiKittyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227D02451AE9F5F9006CD9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227D02291AE9F5F8006CD9F6 /* LiKitty Split */;
+			targetProxy = 227D02441AE9F5F9006CD9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227D02371AE9F5F8006CD9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D02381AE9F5F8006CD9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D023D1AE9F5F8006CD9F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227D024B1AE9F5F9006CD9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		227D024C1AE9F5F9006CD9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227D024E1AE9F5F9006CD9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF846C87BFDF83F65D1091CD /* Pods-LiKitty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LiKitty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		227D024F1AE9F5F9006CD9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18139891FAFBCD8CBC5240C8 /* Pods-LiKitty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LiKitty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		227D02511AE9F5F9006CD9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiKittyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiKitty.app/LiKitty";
+			};
+			name = Debug;
+		};
+		227D02521AE9F5F9006CD9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiKittyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiKitty.app/LiKitty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227D02251AE9F5F8006CD9F6 /* Build configuration list for PBXProject "LiKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D024B1AE9F5F9006CD9F6 /* Debug */,
+				227D024C1AE9F5F9006CD9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D024D1AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "LiKitty Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D024E1AE9F5F9006CD9F6 /* Debug */,
+				227D024F1AE9F5F9006CD9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D02501AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "LiKittyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D02511AE9F5F9006CD9F6 /* Debug */,
+				227D02521AE9F5F9006CD9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227D02221AE9F5F8006CD9F6 /* Project object */;
+}
