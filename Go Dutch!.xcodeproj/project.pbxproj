@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2244EA751B4C474900C49F36 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2244EA741B4C474900C49F36 /* QuartzCore.framework */; };
+		226A69461AFB372200C94C35 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A69451AFB372200C94C35 /* MessageUI.framework */; };
+		226A694C1AFB4B5500C94C35 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A694A1AFB4B5500C94C35 /* AddressBook.framework */; };
+		226A694D1AFB4B5500C94C35 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226A694B1AFB4B5500C94C35 /* AddressBookUI.framework */; };
+		227D024A1AE9F5F9006CD9F6 /* Go-DutchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D02491AE9F5F9006CD9F6 /* Go-DutchTests.m */; };
+		22F3294A1B6001F100BD72F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */; };
+		8800ED111CDDD68400A2CAFB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8800ED101CDDD68400A2CAFB /* Podfile */; };
+		88352AFF1CDEB23B0056F36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88352AFD1CDEB23B0056F36F /* Main.storyboard */; };
+		88A8F00A1CE97A9000504424 /* VenmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8F0091CE97A9000504424 /* VenmoViewController.swift */; };
+		88A8F00C1CE97BC400504424 /* VenmoPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A8F00B1CE97BC400504424 /* VenmoPersonCell.swift */; };
+		88F98B7B1CDDCE8300220070 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B7A1CDDCE8300220070 /* Person.swift */; };
+		88F98B7D1CDDCE8F00220070 /* SplitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B7C1CDDCE8F00220070 /* SplitModel.swift */; };
+		88F98B7F1CDDCE9800220070 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B7E1CDDCE9800220070 /* Item.swift */; };
+		88F98B901CDDCEE900220070 /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B821CDDCEE900220070 /* AddItemsViewController.swift */; };
+		88F98B911CDDCEE900220070 /* AddToTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B831CDDCEE900220070 /* AddToTableViewController.swift */; };
+		88F98B921CDDCEE900220070 /* AssignItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B841CDDCEE900220070 /* AssignItemViewController.swift */; };
+		88F98B941CDDCEE900220070 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B861CDDCEE900220070 /* InitialViewController.swift */; };
+		88F98B951CDDCEE900220070 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B871CDDCEE900220070 /* PersonCell.swift */; };
+		88F98B961CDDCEE900220070 /* SwiftAddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B881CDDCEE900220070 /* SwiftAddItemViewController.swift */; };
+		88F98B971CDDCEE900220070 /* SwiftAddPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B891CDDCEE900220070 /* SwiftAddPeopleViewController.swift */; };
+		88F98B981CDDCEE900220070 /* SwiftFinalSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B8A1CDDCEE900220070 /* SwiftFinalSplitViewController.swift */; };
+		88F98B991CDDCEE900220070 /* SwiftItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B8B1CDDCEE900220070 /* SwiftItemsTableViewController.swift */; };
+		88F98B9A1CDDCEE900220070 /* SwiftMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B8C1CDDCEE900220070 /* SwiftMainViewController.swift */; };
+		88F98B9B1CDDCEE900220070 /* SwiftPersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B8D1CDDCEE900220070 /* SwiftPersonDetailViewController.swift */; };
+		88F98B9C1CDDCEE900220070 /* SwiftTaxAndTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B8E1CDDCEE900220070 /* SwiftTaxAndTipViewController.swift */; };
+		88F98B9D1CDDCEE900220070 /* SwiftVenmoViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B8F1CDDCEE900220070 /* SwiftVenmoViewController2.swift */; };
+		88F98BA01CDDCEFC00220070 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F98B9F1CDDCEFC00220070 /* AppDelegate.m */; };
+		88F98BA31CDDCF2000220070 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F98BA21CDDCF2000220070 /* Images.xcassets */; };
+		88F98BA51CDDCF6300220070 /* TaxAndTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F98BA41CDDCF6300220070 /* TaxAndTipViewController.swift */; };
+		88F98BA81CDDD05F00220070 /* Images.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 88F98BA21CDDCF2000220070 /* Images.xcassets */; };
+		88F98BAA1CDDD08900220070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227D022F1AE9F5F8006CD9F6 /* main.m */; };
+		B219B724A172F33607C464A1 /* Pods_Go_Dutch_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A5D34C2D47A29224BA8EF2 /* Pods_Go_Dutch_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227D02441AE9F5F9006CD9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227D02221AE9F5F8006CD9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227D02291AE9F5F8006CD9F6;
+			remoteInfo = LiKitty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1F2C460B99C69EB95EF638 /* Pods-Go Dutch!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Dutch!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go Dutch!/Pods-Go Dutch!.debug.xcconfig"; sourceTree = "<group>"; };
+		2244EA741B4C474900C49F36 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		226A69451AFB372200C94C35 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		226A694A1AFB4B5500C94C35 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		226A694B1AFB4B5500C94C35 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		227D022A1AE9F5F8006CD9F6 /* Go Dutch!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Dutch!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D022E1AE9F5F8006CD9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Go-Dutch/Info.plist"; sourceTree = "<group>"; };
+		227D022F1AE9F5F8006CD9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/jerechen/Desktop/Me/Go-Dutch/Go-Dutch/main.m"; sourceTree = "<absolute>"; };
+		227D023D1AE9F5F8006CD9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		227D02431AE9F5F9006CD9F6 /* Go Dutch! Split.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Dutch! Split.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D02481AE9F5F9006CD9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Go-DutchTests/Info.plist"; sourceTree = "<group>"; };
+		227D02491AE9F5F9006CD9F6 /* Go-DutchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Go-DutchTests.m"; path = "Go-DutchTests/Go-DutchTests.m"; sourceTree = "<group>"; };
+		641BFFC1B72585A6761320BB /* Pods-Go Dutch!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Dutch!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go Dutch!/Pods-Go Dutch!.release.xcconfig"; sourceTree = "<group>"; };
+		8800ED101CDDD68400A2CAFB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88352AFE1CDEB23B0056F36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Go-Dutch/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		88A8F0091CE97A9000504424 /* VenmoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VenmoViewController.swift; path = "Go-Dutch/VenmoViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88A8F00B1CE97BC400504424 /* VenmoPersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VenmoPersonCell.swift; path = "Go-Dutch/VenmoPersonCell.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B7A1CDDCE8300220070 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = "Go-Dutch/Person.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B7C1CDDCE8F00220070 /* SplitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplitModel.swift; path = "Go-Dutch/SplitModel.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B7E1CDDCE9800220070 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = "Go-Dutch/Item.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B821CDDCEE900220070 /* AddItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemsViewController.swift; path = "Go-Dutch/AddItemsViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B831CDDCEE900220070 /* AddToTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddToTableViewController.swift; path = "Go-Dutch/AddToTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B841CDDCEE900220070 /* AssignItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssignItemViewController.swift; path = "Go-Dutch/AssignItemViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B861CDDCEE900220070 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = "Go-Dutch/InitialViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B871CDDCEE900220070 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonCell.swift; path = "Go-Dutch/PersonCell.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B881CDDCEE900220070 /* SwiftAddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftAddItemViewController.swift; path = "Go-Dutch/SwiftAddItemViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B891CDDCEE900220070 /* SwiftAddPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftAddPeopleViewController.swift; path = "Go-Dutch/SwiftAddPeopleViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B8A1CDDCEE900220070 /* SwiftFinalSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftFinalSplitViewController.swift; path = "Go-Dutch/SwiftFinalSplitViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B8B1CDDCEE900220070 /* SwiftItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftItemsTableViewController.swift; path = "Go-Dutch/SwiftItemsTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B8C1CDDCEE900220070 /* SwiftMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftMainViewController.swift; path = "Go-Dutch/SwiftMainViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B8D1CDDCEE900220070 /* SwiftPersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftPersonDetailViewController.swift; path = "Go-Dutch/SwiftPersonDetailViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B8E1CDDCEE900220070 /* SwiftTaxAndTipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftTaxAndTipViewController.swift; path = "Go-Dutch/SwiftTaxAndTipViewController.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B8F1CDDCEE900220070 /* SwiftVenmoViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftVenmoViewController2.swift; path = "Go-Dutch/SwiftVenmoViewController2.swift"; sourceTree = SOURCE_ROOT; };
+		88F98B9E1CDDCEFC00220070 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Go-Dutch/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		88F98B9F1CDDCEFC00220070 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Go-Dutch/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		88F98BA21CDDCF2000220070 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Go-Dutch/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		88F98BA41CDDCF6300220070 /* TaxAndTipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaxAndTipViewController.swift; path = "Go-Dutch/TaxAndTipViewController.swift"; sourceTree = SOURCE_ROOT; };
+		F2A5D34C2D47A29224BA8EF2 /* Pods_Go_Dutch_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Dutch_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227D02271AE9F5F8006CD9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244EA751B4C474900C49F36 /* QuartzCore.framework in Frameworks */,
+				226A694C1AFB4B5500C94C35 /* AddressBook.framework in Frameworks */,
+				226A694D1AFB4B5500C94C35 /* AddressBookUI.framework in Frameworks */,
+				226A69461AFB372200C94C35 /* MessageUI.framework in Frameworks */,
+				B219B724A172F33607C464A1 /* Pods_Go_Dutch_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D02401AE9F5F9006CD9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E50F1A9E921CA58EC7F980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B1F2C460B99C69EB95EF638 /* Pods-Go Dutch!.debug.xcconfig */,
+				641BFFC1B72585A6761320BB /* Pods-Go Dutch!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		227D02211AE9F5F8006CD9F6 = {
+			isa = PBXGroup;
+			children = (
+				226A694A1AFB4B5500C94C35 /* AddressBook.framework */,
+				226A694B1AFB4B5500C94C35 /* AddressBookUI.framework */,
+				226A69451AFB372200C94C35 /* MessageUI.framework */,
+				227D022C1AE9F5F8006CD9F6 /* Go-Dutch */,
+				227D02461AE9F5F9006CD9F6 /* Go-DutchTests */,
+				227D022B1AE9F5F8006CD9F6 /* Products */,
+				82D3B20ABEBC3A0A79836E88 /* Frameworks */,
+				08E50F1A9E921CA58EC7F980 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		227D022B1AE9F5F8006CD9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227D022A1AE9F5F8006CD9F6 /* Go Dutch!.app */,
+				227D02431AE9F5F9006CD9F6 /* Go Dutch! Split.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227D022C1AE9F5F8006CD9F6 /* Go-Dutch */ = {
+			isa = PBXGroup;
+			children = (
+				881FFDD21CA302F50034807D /* Domain */,
+				881FFDD11CA302D40034807D /* UI */,
+				88F98B9E1CDDCEFC00220070 /* AppDelegate.h */,
+				88F98B9F1CDDCEFC00220070 /* AppDelegate.m */,
+				227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */,
+				88F98BA21CDDCF2000220070 /* Images.xcassets */,
+				227D022D1AE9F5F8006CD9F6 /* Supporting Files */,
+			);
+			name = "Go-Dutch";
+			path = LiKitty;
+			sourceTree = "<group>";
+		};
+		227D022D1AE9F5F8006CD9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227D022E1AE9F5F8006CD9F6 /* Info.plist */,
+				227D022F1AE9F5F8006CD9F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227D02461AE9F5F9006CD9F6 /* Go-DutchTests */ = {
+			isa = PBXGroup;
+			children = (
+				227D02491AE9F5F9006CD9F6 /* Go-DutchTests.m */,
+				227D02471AE9F5F9006CD9F6 /* Supporting Files */,
+			);
+			name = "Go-DutchTests";
+			path = LiKittyTests;
+			sourceTree = "<group>";
+		};
+		227D02471AE9F5F9006CD9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227D02481AE9F5F9006CD9F6 /* Info.plist */,
+				8800ED101CDDD68400A2CAFB /* Podfile */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D3B20ABEBC3A0A79836E88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2244EA741B4C474900C49F36 /* QuartzCore.framework */,
+				F2A5D34C2D47A29224BA8EF2 /* Pods_Go_Dutch_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880235331CC1968400D58096 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				88352AFD1CDEB23B0056F36F /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		881FFDD11CA302D40034807D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				88F98B861CDDCEE900220070 /* InitialViewController.swift */,
+				88F98B831CDDCEE900220070 /* AddToTableViewController.swift */,
+				88F98B821CDDCEE900220070 /* AddItemsViewController.swift */,
+				88F98B841CDDCEE900220070 /* AssignItemViewController.swift */,
+				88A8F0091CE97A9000504424 /* VenmoViewController.swift */,
+				88A8F00B1CE97BC400504424 /* VenmoPersonCell.swift */,
+				88F98B871CDDCEE900220070 /* PersonCell.swift */,
+				88F98BA41CDDCF6300220070 /* TaxAndTipViewController.swift */,
+				88F98B8A1CDDCEE900220070 /* SwiftFinalSplitViewController.swift */,
+				88F98B8D1CDDCEE900220070 /* SwiftPersonDetailViewController.swift */,
+				886008FA1CE0197900A7D3DB /* Legacy */,
+				880235331CC1968400D58096 /* Storyboards */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		881FFDD21CA302F50034807D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				88F98B7A1CDDCE8300220070 /* Person.swift */,
+				88F98B7C1CDDCE8F00220070 /* SplitModel.swift */,
+				88F98B7E1CDDCE9800220070 /* Item.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		886008FA1CE0197900A7D3DB /* Legacy */ = {
+			isa = PBXGroup;
+			children = (
+				88F98B8B1CDDCEE900220070 /* SwiftItemsTableViewController.swift */,
+				88F98B8C1CDDCEE900220070 /* SwiftMainViewController.swift */,
+				88F98B8E1CDDCEE900220070 /* SwiftTaxAndTipViewController.swift */,
+				88F98B8F1CDDCEE900220070 /* SwiftVenmoViewController2.swift */,
+				88F98B881CDDCEE900220070 /* SwiftAddItemViewController.swift */,
+				88F98B891CDDCEE900220070 /* SwiftAddPeopleViewController.swift */,
+			);
+			name = Legacy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227D02291AE9F5F8006CD9F6 /* Go Dutch! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D024D1AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "Go Dutch!" */;
+			buildPhases = (
+				AC9D07B393AB5069DDA8DA50 /* Check Pods Manifest.lock */,
+				227D02261AE9F5F8006CD9F6 /* Sources */,
+				227D02271AE9F5F8006CD9F6 /* Frameworks */,
+				227D02281AE9F5F8006CD9F6 /* Resources */,
+				1ECD5CD38B6F3882F9E19BDD /* Embed Pods Frameworks */,
+				6B342E3DE33AA535D52158B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Dutch!";
+			productName = LiKitty;
+			productReference = 227D022A1AE9F5F8006CD9F6 /* Go Dutch!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227D02421AE9F5F9006CD9F6 /* Go Dutch!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D02501AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "Go Dutch!Tests" */;
+			buildPhases = (
+				227D023F1AE9F5F9006CD9F6 /* Sources */,
+				227D02401AE9F5F9006CD9F6 /* Frameworks */,
+				227D02411AE9F5F9006CD9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227D02451AE9F5F9006CD9F6 /* PBXTargetDependency */,
+			);
+			name = "Go Dutch!Tests";
+			productName = LiKittyTests;
+			productReference = 227D02431AE9F5F9006CD9F6 /* Go Dutch! Split.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227D02221AE9F5F8006CD9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeremy Chen";
+				TargetAttributes = {
+					227D02291AE9F5F8006CD9F6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = KY8PBFEV36;
+					};
+					227D02421AE9F5F9006CD9F6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 227D02291AE9F5F8006CD9F6;
+					};
+				};
+			};
+			buildConfigurationList = 227D02251AE9F5F8006CD9F6 /* Build configuration list for PBXProject "Go Dutch!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227D02211AE9F5F8006CD9F6;
+			productRefGroup = 227D022B1AE9F5F8006CD9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227D02291AE9F5F8006CD9F6 /* Go Dutch! */,
+				227D02421AE9F5F9006CD9F6 /* Go Dutch!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227D02281AE9F5F8006CD9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F98BA31CDDCF2000220070 /* Images.xcassets in Resources */,
+				22F3294A1B6001F100BD72F2 /* LaunchScreen.xib in Resources */,
+				8800ED111CDDD68400A2CAFB /* Podfile in Resources */,
+				88352AFF1CDEB23B0056F36F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D02411AE9F5F9006CD9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ECD5CD38B6F3882F9E19BDD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go Dutch!/Pods-Go Dutch!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B342E3DE33AA535D52158B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Go Dutch!/Pods-Go Dutch!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9D07B393AB5069DDA8DA50 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227D02261AE9F5F8006CD9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F98BAA1CDDD08900220070 /* main.m in Sources */,
+				88F98BA81CDDD05F00220070 /* Images.xcassets in Sources */,
+				88F98BA51CDDCF6300220070 /* TaxAndTipViewController.swift in Sources */,
+				88F98B911CDDCEE900220070 /* AddToTableViewController.swift in Sources */,
+				88F98B7F1CDDCE9800220070 /* Item.swift in Sources */,
+				88F98B7B1CDDCE8300220070 /* Person.swift in Sources */,
+				88A8F00C1CE97BC400504424 /* VenmoPersonCell.swift in Sources */,
+				88A8F00A1CE97A9000504424 /* VenmoViewController.swift in Sources */,
+				88F98B9A1CDDCEE900220070 /* SwiftMainViewController.swift in Sources */,
+				88F98B9C1CDDCEE900220070 /* SwiftTaxAndTipViewController.swift in Sources */,
+				88F98B921CDDCEE900220070 /* AssignItemViewController.swift in Sources */,
+				88F98B7D1CDDCE8F00220070 /* SplitModel.swift in Sources */,
+				88F98B941CDDCEE900220070 /* InitialViewController.swift in Sources */,
+				88F98B9B1CDDCEE900220070 /* SwiftPersonDetailViewController.swift in Sources */,
+				88F98B961CDDCEE900220070 /* SwiftAddItemViewController.swift in Sources */,
+				88F98B971CDDCEE900220070 /* SwiftAddPeopleViewController.swift in Sources */,
+				88F98B951CDDCEE900220070 /* PersonCell.swift in Sources */,
+				88F98B901CDDCEE900220070 /* AddItemsViewController.swift in Sources */,
+				88F98B991CDDCEE900220070 /* SwiftItemsTableViewController.swift in Sources */,
+				88F98B9D1CDDCEE900220070 /* SwiftVenmoViewController2.swift in Sources */,
+				88F98B981CDDCEE900220070 /* SwiftFinalSplitViewController.swift in Sources */,
+				88F98BA01CDDCEFC00220070 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D023F1AE9F5F9006CD9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D024A1AE9F5F9006CD9F6 /* Go-DutchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227D02451AE9F5F9006CD9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227D02291AE9F5F8006CD9F6 /* Go Dutch! */;
+			targetProxy = 227D02441AE9F5F9006CD9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227D023C1AE9F5F8006CD9F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D023D1AE9F5F8006CD9F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = "../Go-Dutch";
+			sourceTree = "<group>";
+		};
+		88352AFD1CDEB23B0056F36F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88352AFE1CDEB23B0056F36F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227D024B1AE9F5F9006CD9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		227D024C1AE9F5F9006CD9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227D024E1AE9F5F9006CD9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1F2C460B99C69EB95EF638 /* Pods-Go Dutch!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Go-Dutch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeremy.Chen.Go-Dutch";
+				PRODUCT_NAME = "Go Dutch!";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		227D024F1AE9F5F9006CD9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641BFFC1B72585A6761320BB /* Pods-Go Dutch!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Go-Dutch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jeremy.Chen.Go-Dutch";
+				PRODUCT_NAME = "Go Dutch!";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		227D02511AE9F5F9006CD9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiKittyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Burrito-Squad.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Go Dutch! Split";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Dutch!.app/Go Dutch!";
+			};
+			name = Debug;
+		};
+		227D02521AE9F5F9006CD9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiKittyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Burrito-Squad.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Go Dutch! Split";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Dutch!.app/Go Dutch!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227D02251AE9F5F8006CD9F6 /* Build configuration list for PBXProject "Go Dutch!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D024B1AE9F5F9006CD9F6 /* Debug */,
+				227D024C1AE9F5F9006CD9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D024D1AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "Go Dutch!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D024E1AE9F5F9006CD9F6 /* Debug */,
+				227D024F1AE9F5F9006CD9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D02501AE9F5F9006CD9F6 /* Build configuration list for PBXNativeTarget "Go Dutch!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D02511AE9F5F9006CD9F6 /* Debug */,
+				227D02521AE9F5F9006CD9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227D02221AE9F5F8006CD9F6 /* Project object */;
+}
